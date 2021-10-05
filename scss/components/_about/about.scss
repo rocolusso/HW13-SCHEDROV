@@ -1,0 +1,38 @@
+.about {
+  background-color: white;
+
+  .about_items {
+    display: flex;
+    align-content: center;
+
+
+
+    .about-item_image img {
+      margin: 0 auto;
+      padding-top: 50px;
+      padding-bottom: 25px;
+      width: 150px;
+      height: auto;
+    }
+
+    .about-item_zagolovok h2 {
+      text-align: center;
+      color: #5094f2;
+    }
+
+    .about-item_text p {
+      text-align: center;
+      padding-bottom: 50px;
+      color: #909090;
+    }
+
+
+
+  }
+
+
+}
+
+
+
+

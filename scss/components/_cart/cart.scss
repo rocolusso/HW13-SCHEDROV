@@ -1,0 +1,66 @@
+
+.cart_block {
+
+
+  .cart_zagolovok h2, h3 {
+    color: #6f7173;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+
+  .cart_content {
+    margin: 20px 0;
+
+
+    .cart_items {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+
+
+      .cart_item {
+
+        .cart_image {
+
+          padding-top: 50px;
+          padding-bottom: 25px;
+          width: 240px;
+
+        }
+
+
+        .cart_about {
+
+          padding-right: 60px;
+
+
+          .cart-about_text {
+            padding-top: 20px;
+          }
+          
+          p {
+            padding: 10px 0;
+          }
+
+
+        }
+
+
+      }
+
+
+    }
+
+
+  }
+
+
+}
+
+
+
+
+
+
+

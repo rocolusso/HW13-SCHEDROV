@@ -1,0 +1,95 @@
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  .phone {
+
+    img {
+
+      padding-top: 40px;
+      padding-bottom: 10px;
+      padding-right: 120px;
+    }
+
+  }
+
+  .banner_text {
+
+    color: white;
+
+
+    p {
+      color: white;
+    }
+
+
+    .banner_btn {
+
+      margin: 20px;
+
+      button {
+        background-color: #5094f2;
+        color: white;
+        padding: 0 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border: none;
+        transition-duration: .4s;
+        display: flex;
+        align-items: center;
+        height: 30px;
+
+
+        &:hover {
+          background-color: #5054f2;
+          color: white;
+          padding: 0 20px;
+          text-align: center;
+          text-decoration: none;
+          font-size: 16px;
+          border: none;
+          display: flex;
+          align-items: center;
+          height: 30px;
+        }
+
+        .banner-btn_img {
+
+          width: 20px;
+          height: 20px;
+          padding-right: 5px;
+
+        }
+
+
+        span {
+          padding: 10px;
+
+          a {
+            text-decoration: none;
+            color: white;
+          }
+        }
+
+      }
+
+
+    }
+
+
+  }
+
+}
+
+
+
+
+
+
